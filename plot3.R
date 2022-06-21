@@ -18,7 +18,7 @@ ggplot(data = tot_BC_type, aes(Group.1, x)) +
   facet_grid(. ~ Group.2) + 
   xlab("Year") + 
   ylab("Total Emissions") + 
-  ggtitle("Totel Emissions by Type in Baltimore City")
+  ggtitle("Total Emissions by Type in Baltimore City")
 
 dev.off()
 
